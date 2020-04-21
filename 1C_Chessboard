@@ -1,0 +1,22 @@
+// Eloquent JavaScript
+// Exercise 1C
+// Chessboard
+
+let check = '';
+let size = 8;
+let print = '#';
+for (let i = 0; i < size; i++) {
+  let row = '';
+  for (let j = 0; j < size; j++) {
+    if (print === '#') {
+      print = ' ';
+    } else {
+      print = '#';
+    }
+
+    row = row + print;
+  }
+  check = check + row + '\n';
+  print = row[0];
+}
+console.log(check);
