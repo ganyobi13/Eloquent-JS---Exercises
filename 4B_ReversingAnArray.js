@@ -19,7 +19,6 @@ const reverseArrayInPlace = arr => {
     arr[i] = arr[len - 1 - i];
     arr[len - 1 - i] = temp;
   }
-  return arr;
 }
 
 
