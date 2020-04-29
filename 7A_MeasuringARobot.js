@@ -1,6 +1,7 @@
 // Eloquent JavaScript
 // Exercise 7A
 // Measuring A Robot
+// NB: Some parts of this code were already in the Eloquent JavaScript sandbox and not included here
 
 function runRobot(state, robot, memory) {
   for (let turn = 0;; turn++) {
